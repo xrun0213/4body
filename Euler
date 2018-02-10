@@ -1,0 +1,3 @@
+function Eu = eu(f, h, x)
+
+Eu = x + h*f;
