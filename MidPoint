@@ -1,0 +1,7 @@
+function MidP = midp(f, h, x)
+
+x2 = x + h*f/2;
+     
+f2 = dx(x2);
+
+MidP = x + h*f2;
