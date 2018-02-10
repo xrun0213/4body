@@ -1,0 +1,7 @@
+function RK2 = rk2(f, h, x)
+
+x2 = x + 2*h*f/3;
+     
+f2 = dx(x2);
+
+RK2 = x + h*(f + 3*f2)/4;
